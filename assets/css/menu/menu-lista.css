@@ -1,0 +1,32 @@
+.menu{
+    /*MENU DA DIREITA*/
+    /*ELEMENTO IMBUTIDO*/
+    display: inline;
+    /*posicão do menu*/
+    float: right;
+    height: 80px;
+    padding:25px;
+}
+.menu ul{
+    margin:0;
+    background-color: white;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: lightgrey;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: darkred;
+}
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,13 @@
+.sobre-titulo{
+    font:  bold 300% Pacifico, SansSerif;
+    text-align: center;
+    color: darkred;
+}
+
+
+@media only screen and (max-width: 400px)  {
+    .sobre-titulo{
+        font:  bold 370% Pacifico, SansSerif;
+    }
+
+}

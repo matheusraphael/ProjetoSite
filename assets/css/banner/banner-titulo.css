@@ -1,0 +1,22 @@
+h2 span {
+    color: white;
+    text-shadow: 3px 3px 6px #000000;
+    font: bold 75px/45px Pacifico, Sans-Serif;
+
+    padding: 10px;
+    text-align: center;
+}
+h2 {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .h2 span{
+        width: 50%;
+
+
+    }
+}

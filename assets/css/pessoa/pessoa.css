@@ -1,0 +1,23 @@
+.pessoa {
+    float: left;
+    text-align: center;
+
+}
+
+@media  (min-width: 600px){
+    .pessoa{
+        float: left;
+        height: auto;
+    }
+
+}
+@media (min-width: 768px){
+    .pessoa{
+        float: left;
+        margin-left: -2%;
+        margin-bottom: 5%;
+        height: auto;
+        text-align: center;
+    }
+
+}

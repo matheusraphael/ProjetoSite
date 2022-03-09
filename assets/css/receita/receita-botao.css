@@ -1,0 +1,24 @@
+.botao{
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 6%;
+    margin-left: 5%;
+
+}
+.botao:hover{
+    background-color: darkred;
+}
+.botao:active{
+    background-color:darkred ;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
